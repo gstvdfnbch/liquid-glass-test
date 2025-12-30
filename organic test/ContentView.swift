@@ -1,21 +1,6 @@
-//
-//  ContentView.swift
-//  organic test
-//
-//  Created by Gustavo Diefenbach on 28/12/25.
-//
-
 import SwiftUI
 import CoreMotion
 import UIKit
-
-struct FloatingBlob: Identifiable {
-    let id = UUID()
-    let size: CGFloat
-    let startPosition: CGPoint
-    let endPosition: CGPoint
-    let duration: Double
-}
 
 struct ContentView: View {
 
